@@ -1,0 +1,21 @@
+{
+  "name": "genid",
+  "version": "0.1.0",
+  "description": "Create pseudo-random string of characters in javascript",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/filearts/genid.git"
+  },
+  "keywords": [
+    "random",
+    "string",
+    "prefix",
+    "keyspace"
+  ],
+  "author": "Geoffrey Goodman",
+  "license": "MIT"
+}
