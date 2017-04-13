@@ -1,11 +1,11 @@
 module.exports = function genid(len, prefix, keyspace) {
-  if (len == null) {
+  if (!len) {
     len = 32;
   }
-  if (prefix == null) {
+  if (!prefix) {
     prefix = "";
   }
-  if (keyspace == null) {
+  if (!keyspace) {
     keyspace = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789";
   }
   while (len-- > 0) {
